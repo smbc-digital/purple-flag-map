@@ -1,8 +1,6 @@
 import { getTargetUrl } from '../Helpers'
 
 const streetlightPopup = (feature, layer) => {
-  const varName = getTargetUrl()
-
   const content = `<div class="smbc-map__item">
   <div class="smbc-map__item__header__block">
     <i class="fa fa-book smbc-map__item__header__block__icon" aria-hidden="true"></i>
