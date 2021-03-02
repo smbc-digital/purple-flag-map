@@ -1,5 +1,3 @@
-import { getTargetUrl } from '../Helpers'
-
 const streetlightPopup = (feature, layer) => {
   const content = `<div class="smbc-map__item">
   <div class="smbc-map__item__header__block">
